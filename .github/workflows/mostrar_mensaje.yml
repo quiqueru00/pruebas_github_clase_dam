@@ -8,6 +8,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      name: Mostrar mensaje
+    - name: Mostrar mensaje
       run:
         echo "Hola"      
