@@ -9,5 +9,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Mostrar mensaje
-      run:
-        echo "Hola"      
+      run: |
+        echo "Hola"
+        echo "Fecha y hora:"
+        date
+        echo "Versión de Java:"
+        java -version || echo "Java no instalado"        
